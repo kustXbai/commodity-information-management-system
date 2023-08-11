@@ -1,1 +1,21 @@
 # commodity-information-management-system
+该项目的名称为商品信息管理系统
+项目描述：项目采用最新的Vue3版本+组合式API的流行写法，同时使用了对类型限制更为严格的TypeScript、前端下一代构建化工具Vite、路由的最新版本vue-router4、新一代状态仓库管理工具Pinia、UI组件库Element-plus、前后端交互工具Axios以及可视化大屏工具ECharts。具有首页、数据大屏、用户管理、商品管理四大模块，权限管理中配合后端，通过用户的id校验权限信息，实现路由的动态添加。
+技术栈：vue3、vue-router、vite、TypeScript、scss、pinia、axios、element-plus、Echarts
+主要成果：
+·实现了路由鉴权，利用前置路由守卫实现登录与未登录情况下路由的访问限制。
+·在权限管理模块实现根据不同用户权限，显示不同的菜单。
+·在登录模块使用自定义校验规则，对于账号和密码的长度做出了限制。
+·使用pinia进行状态管理，作为项目的数据仓库，实现组件间的数据通信。
+·二次封装axios，配置请求拦截器和响应拦截器，使用配置代理解决跨域问题。
+·使用Echarts实现数据大屏业务展示。
+登录功能展示
+![image](https://github.com/kustXbai/commodity-information-management-system/assets/117620855/fced5b4f-c47d-428a-bd7b-d11f19d515bc)
+首页模块展示
+![image](https://github.com/kustXbai/commodity-information-management-system/assets/117620855/8a1bc954-1c16-477d-bb35-1c077ba83b45)
+数据大屏模块展示
+![image](https://github.com/kustXbai/commodity-information-management-system/assets/117620855/8dbe84f7-37ff-41ce-a324-8accf8ddd308)
+权限管理模块展示
+![image](https://github.com/kustXbai/commodity-information-management-system/assets/117620855/cfde1e7a-41e3-4ebd-8185-b990fd4d53d4)
+商品管理模块展示
+![image](https://github.com/kustXbai/commodity-information-management-system/assets/117620855/50a16058-a05f-48b0-a8bc-978dadd9f078)
