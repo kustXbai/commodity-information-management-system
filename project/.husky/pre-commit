@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+//.husky 起到的作用在有人将代码提交到远程仓库的时候，必须得先格式化一下 才能进行提交。
+pnpm run format

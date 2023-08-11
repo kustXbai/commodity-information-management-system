@@ -1,0 +1,10 @@
+{
+    // prettier格式化工具配置
+    "singleQuote": true,
+    "semi": false,
+    "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "ignore",
+    "endOfLine": "auto",
+    "trailingComma": "all",
+    "tabWidth": 2
+}
